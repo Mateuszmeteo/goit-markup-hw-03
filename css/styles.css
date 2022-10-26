@@ -111,10 +111,11 @@ header {
 .logoup3 {
     color: #ffffff;
 }
-/* .logodown2 {
+.logodown2 {
+    padding-left: 0;
     
 }
-.logodown2 li {
+/* .logodown2 li {
     
 } */
 .addres {
