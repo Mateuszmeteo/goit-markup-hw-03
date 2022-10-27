@@ -21,18 +21,30 @@ body {
 header {
     border-bottom: #ECECEC solid 1px;
 }
-.headerclass {
+.headercontainer {
     display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+}
+.headerclass {
+    /* text-align: right; */
+    /* display: block; */
+    /* display: flex;
     background-color: #FFFFFF;
     justify-content: space-between;
-    /* align-items: baseline; */
+    align-items: center; */
+    /* flex-direction: row; */
 }
 .headerclass ul {
-    display: flex;
-    /* flex-wrap: wrap; */
     list-style: none;
+    /* display: inline; */
+    /* flex-direction: row; */
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* list-style: none; */
     /* justify-content: center; */
-    gap: 40px;
+    /* gap: 40px; */
     /* align-items: center; */
 }
 .logoright {
