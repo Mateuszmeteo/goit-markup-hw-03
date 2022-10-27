@@ -11,23 +11,27 @@ body {
 }
 .container {
     margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
+    inline-size: 100%;
+    max-inline-size: 1200px;
     padding: 0 15px;
 }
 
 
                                         /* header */
 header {
-    border-bottom: #ECECEC solid 1px;
+    border-block-end: #ECECEC solid 1px;
 }
 .headercontainer {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: baseline;
     /* flex-direction: row; */
 }
 .headerclass {
-    /* text-align: right; */
+    display: flex;
+
+
+    /* text-align: end; */
     /* display: block; */
     /* display: flex;
     background-color: #FFFFFF;
@@ -37,6 +41,8 @@ header {
 }
 .headerclass ul {
     list-style: none;
+    display: flex;
+    
     /* display: inline; */
     /* flex-direction: row; */
 
@@ -48,7 +54,7 @@ header {
     /* align-items: center; */
 }
 .logoright {
-    /* margin-right: 227px; */
+    /* margin-inline-end: 227px; */
 }
 .logoup {
     font-family: 'Raleway', sans-serif;
@@ -68,7 +74,7 @@ header {
     color: #000000;
 }
 .nolinkup11 {
-    /* margin-left: 100px; */
+    /* margin-inline-start: 100px; */
     text-decoration: none;
     color: #212121;
     font-weight: 500;
@@ -113,7 +119,7 @@ header {
     padding: 60px 0;
 }
 .logodown {
-    padding-bottom: 20px;
+    padding-block-end: 20px;
 }
 
 /* footer a {
@@ -126,7 +132,7 @@ header {
     color: #ffffff;
 }
 .logodown2 {
-    padding-left: 0;
+    padding-inline-start: 0;
     
 }
 /* .logodown2 li {
@@ -161,7 +167,7 @@ header {
     background-color: #2F303A;
     justify-content: center;
     text-align: center;
-    padding-bottom: 200px;
+    padding-block-end: 200px;
 }
 .title h1 {
     text-transform: uppercase;
@@ -171,7 +177,7 @@ header {
     line-height: 1.36;
     color: #FFFFFF; 
     margin: 0 auto 30px auto;
-    max-width: 696px;
+    max-inline-size: 696px;
     
     /* flex-direction: row;
     text-align:justify; */
@@ -203,11 +209,11 @@ header {
     /* line-height: 16px; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-block-end: 10px;
 }
 .lorem ul {
     display: flex;
-    text-align: left;
+    text-align: start;
     gap:30px;
     list-style: none;
 }
@@ -226,7 +232,7 @@ header {
     /* line-height: 42px; */
     line-height: 0.857;
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-block-end: 50px;
 }
 .imagin ul {
     display: flex;
@@ -259,7 +265,7 @@ header {
     line-height: 0.857;
     /* line-height: 42px; */
     letter-spacing: 0.03em;
-    margin-bottom: 50px;
+    margin-block-end: 50px;
     text-align: center;
 }
 .teamlist h3 {
@@ -284,8 +290,8 @@ header {
     justify-content: center;
     gap: 10px;
     list-style: none;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding-block-start: 80px;
+    padding-block-end: 20px;
 }
 .bsection button {
     font-weight: 500;
@@ -315,10 +321,10 @@ header {
     gap:20px;
     list-style: none;
     /* padding: 40px 215px 50px 215px; */
-    /* padding-top: 40px;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-bottom: 40px; */
+    /* padding-block-start: 40px;
+    padding-inline-start: 215px;
+    padding-inline-end: 215px;
+    padding-block-end: 40px; */
 }
 .wrap img {
     background-color: #eeeeee;
@@ -328,14 +334,14 @@ header {
     border: 1px solid #EEEEEE;
 }
 .wrap h3 {
-    margin-left: 30px;
+    margin-inline-start: 30px;
     font-size: 18px;
     /* line-height: 36px; */
     line-height: 0.5;
     letter-spacing: 0.06em;
 }
 .wrap p {
-    margin-left: 30px;
+    margin-inline-start: 30px;
     color: #757575;
     font-size: 16px;
     line-height: 0.533;
