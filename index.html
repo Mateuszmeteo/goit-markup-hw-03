@@ -11,73 +11,83 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="headerclass">
-                <a class="logoup" href="./index.html">
-                   <span class="logoup1">Web</span>
-                   <span class="logoup2">Studio</span>
-                </a>  
-                <ul>             
-                    <li><nav><a class="nolinkup11" href="Agencja">Agencja</a></nav></li>
-                    <li><nav><a class="nolinkup1" href="portfolio.html">Portfolio</a></nav></li>
-                    <li><nav><a class="nolinkup1" href="kontakty">Kontakty</a></nav></li>
-                </ul>
-            </div>
-            <div class="headerclass">
-                <ul class="logoright">
-                    <li><nav><a class="nolinkup2" href="mailto:info@devstudio.com">info@devstudio.com</a></nav></li>
-                    <li><nav><a class="nolinkup2" href="tel:+48 111 111 111">+48 111 111 111</a></nav></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section>
+<body>   
+     <header>
+        <section class="headcont">
             <div class="container">
-                <div class="title">
-                    <div>
-                        <h1>efektywne rozwiązania dla waszego biznesu</h1>
+                <div class="headerdiv">
+                    <div class="headdiv">
+                        <nav class="head1">
+                            <a class="logoup nolink" href="./index.html">
+                                <span class="logoup11">Web</span>
+                                <span class="logoup12">Studio</span>
+                            </a>
+                            <ul>             
+                                <li><a class="logoup2 nolink" href="Agencja">Agencja</a></li>
+                                <li><a class="logoup2 nolink" href="portfolio.html">Portfolio</a></li>
+                                <li><a class="logoup2 nolink" href="kontakty">Kontakty</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div>
-                        <button type="button">Zamów usługę</button>
+                    <div class="headdiv">
+                        <nav class="head2">
+                            <ul class="head2list">
+                                <li><a class="logoup3 nolink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                                <li><a class="logoup3 nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div> 
+                </div>
             </div>
         </section>
-        <section>
+     </header>
+     <main>
+        <section class="sec1">
             <div class="container">
-                <div class="lorem">
-                    <h2>Lorem</h2>
+                <div class="div1sec1">
+                    <div class="div1box">
+                        <h1>efektywne rozwiązania dla waszego biznesu</h1>
+                        <button type="button">Zamów usługę</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="loremlistcont">
+            <div class="container">
+                <div class="loremlist">
+                    <h2>h2niewidocznyh2</h2>
                     <ul>
                         <li>
+                            <!-- <button></button> -->
                             <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                         </li>
                         <li>
+                            <!-- <button></button> -->
                             <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                         </li>
                         <li>
+                            <!-- <button></button> -->
                             <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                         </li>
                         <li>
+                            <!-- <button></button> -->
                             <h3>Lorem ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="loremimg">
             <div class="container">
-                <div class="imagin">
+                <div class="loremimgdiv">
                     <h2>Czym się zajmujemy</h2>
                     <ul>
                         <li>
@@ -105,12 +115,12 @@
                             />
                         </li>
                     </ul>
-                </div>   
-            </div>  
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="teamcont">
             <div class="container">
-                <div class="teamlist">
+                <div class="teamdiv">
                     <h2>Nasz zespół</h2>
                     <ul>
                         <li>
@@ -121,6 +131,12 @@
                             />
                             <h3>John Doe</h3>
                             <p>Product Designer</p>
+                            <!-- <ul>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                            </ul> -->
                         </li>
                         <li>
                             <img src="images/img2.jpg" 
@@ -130,6 +146,12 @@
                             />
                             <h3>John Doe</h3>
                             <p>Fronted Developer</p>
+                            <!-- <ul>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                            </ul> -->
                         </li>
                         <li>
                             <img src="images/img3.jpg" 
@@ -139,6 +161,12 @@
                             />
                             <h3>John Doe</h3>
                             <p>Marketing</p>
+                            <!-- <ul>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                            </ul> -->
                         </li>
                         <li>
                             <img src="images/img4.jpg" 
@@ -148,27 +176,56 @@
                             />
                             <h3>John Doe</h3>
                             <p>UI Designer</p>
-                        </li>
+                            <!-- <ul>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                                <li><button></button></li>
+                            </ul>
+                        </li> -->
                     </ul>
-                </div>  
+                </div>
+            </div>
+        <!-- </section>
+        <section class="castomerscont">
+            <div class="container">
+                <div class="castomerscontdiv">
+                    <h2>Lorem, ipsum.</h2>
+                    <ul>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
+                    </ul>
+                </div>
+            </div>
+        </section> -->
+     </main>
+     <footer>
+        <section class="footcont">
+            <div class="container">
+                <div class="footdiv">
+                    <div class="footdivone">
+                        <a class="logodown nolink" href="./index.html">
+                            <span class="logodown11">Web</span>
+                            <span class="logodown12">Studio</span>
+                        </a>
+                        <ul class="logodownlist">
+                            <li><address><p class="logodown2 downaddres nolink">m.Warszawa, Aleje Jerozolimskie 21</p></address></li>
+                            <li><a class="logodown2 downkontakt nolink" href="mailto:info@example.com">info@example.com</a></li>
+                            <li><a class="logodown2 downkontakt nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footdivtwo">
+                        <p>logo</p>
+                        <p>lista</p>
+                    </div> -->
+                </div>
             </div>
         </section>
-    </main>
-    
-    <footer>
-        <div class="container">
-            <div class="foot">
-                <a class="logoup logodown" href="./index.html">
-                    <span class="logoup1">Web</span>
-                    <span class="logoup3">Studio</span>
-                </a>
-                <ul class="logodown2">
-                    <li><address><p class="addres">m.Warszawa, Aleje Jerozolimskie 21</p></address></li>
-                    <li><a class="nolink" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
-                </ul>
-            </div>     
-        </div>    
-    </footer>
+
+     </footer>
 </body>
 </html>
