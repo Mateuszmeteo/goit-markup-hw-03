@@ -433,6 +433,7 @@
 .wrap ul {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 94px;
 }
 .wrap li {
     flex-basis: calc(100%/3);
